@@ -1,0 +1,42 @@
+1 - Quais são as entidades necessárias?
+
+-Empresa
+-Tecnologia
+-Colaborador
+
+2 - Quais são os principais campos e seus respectivos tipos?
+Empresa:
+-ID (Chave Primária, Inteiro)
+-Nome (Texto)
+-Setor (Texto)
+-Localização (Texto)
+
+Tecnologia:
+-ID (Chave Primária, Inteiro)
+-Nome (Texto)
+-Área (Texto)
+
+Colaborador:
+-ID (Chave Primária, Inteiro)
+-Nome (Texto)
+-Cargo (Texto)
+-Empresa_ID (Chave Estrangeira referenciando a tabela Empresa)
+
+
+3 - Como essas entidades estão relacionadas?
+Uma empresa pode utilizar várias tecnologias (relacionamento um para muitos entre Empresa e Tecnologia).
+Um colaborador pertence a uma empresa específica (relacionamento um para muitos entre Empresa e Colaborador).
+
+
+4 - Simule 2 registros para cada entidade.
+Empresa:
+-ID: 1, Nome: "Tech Solutions", Setor: "Tecnologia", Localização: "São Paulo"
+-ID: 2, Nome: "Digital Marketing Inc.", Setor: "Marketing", Localização: "Rio de Janeiro"
+
+Tecnologia:
+-ID: 1, Nome: "Python", Área: "Desenvolvimento de Software"
+-ID: 2, Nome: "JavaScript", Área: "Desenvolvimento Web"
+
+Colaborador:
+-ID: 1, Nome: "João Silva", Cargo: "Desenvolvedor", Empresa_ID: 1
+-ID: 2, Nome: "Maria Souza", Cargo: "Analista de Marketing", Empresa_ID: 2
