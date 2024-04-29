@@ -10,10 +10,10 @@ O sistema RESILIADATA requer um banco de dados robusto para armazenar informaç�
 
 **Empresa**
 
-*ID: Identificador único da empresa.
-*Nome: Nome da empresa.
-*Setor: Setor de atuação da empresa.
-*Localização: Localização da empresa.
+- ID: Identificador único da empresa.
+- Nome: Nome da empresa.
+- Setor: Setor de atuação da empresa.
+- Localização: Localização da empresa.
 
 **Tecnologia**
 
