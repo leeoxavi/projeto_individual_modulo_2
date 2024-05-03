@@ -30,13 +30,40 @@ Um colaborador pertence a uma empresa específica (relacionamento um para muitos
 
 4 - Simule 2 registros para cada entidade.
 Empresa:
--ID: 1, Nome: "Tech Solutions", Setor: "Tecnologia", Localização: "São Paulo"
--ID: 2, Nome: "Digital Marketing Inc.", Setor: "Marketing", Localização: "Rio de Janeiro"
+
+-ID (Chave Primária, Inteiro)
+-Nome (Texto)
+-Setor (Texto)
+-Localização (Texto)
+
+
+
+-ID: 1 (Chave Primária, Inteiro), 
+Nome: "Tech Solutions" (Texto), 
+Setor: "Tecnologia" (Texto), 
+Localização: "São Paulo (Texto)"
+
+-ID: 2 (Chave Primária, Inteiro), 
+Nome: "Digital Marketing Inc." (Texto), 
+Setor: "Marketing" (Texto), 
+Localização: "Rio de Janeiro" (Texto)
 
 Tecnologia:
--ID: 1, Nome: "Python", Área: "Desenvolvimento de Software"
--ID: 2, Nome: "JavaScript", Área: "Desenvolvimento Web"
+-ID: 1 (Chave Primária, Inteiro), 
+Nome: "Python" (Texto), 
+Área: "Desenvolvimento de Software" (Texto)
+
+-ID: 2 (Chave Primária, Inteiro), 
+Nome: "JavaScript" (Texto), 
+Área: "Desenvolvimento Web" (Texto)
 
 Colaborador:
--ID: 1, Nome: "João Silva", Cargo: "Desenvolvedor", Empresa_ID: 1
--ID: 2, Nome: "Maria Souza", Cargo: "Analista de Marketing", Empresa_ID: 2
+-ID: 1 (Chave Primária, Inteiro), 
+Nome: "João Silva" (Texto), 
+Cargo: "Desenvolvedor" (Texto), 
+Empresa_ID: 1 (Chave Estrangeira)
+
+-ID: 2 (Chave Primária, Inteiro), 
+Nome: "Maria Souza" (Texto), 
+Cargo: "Analista de Marketing" (Texto), 
+Empresa_ID: 2 (Chave Estrangeira)
