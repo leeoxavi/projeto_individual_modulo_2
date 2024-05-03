@@ -31,13 +31,6 @@ Um colaborador pertence a uma empresa específica (relacionamento um para muitos
 4 - Simule 2 registros para cada entidade.
 Empresa:
 
--ID (Chave Primária, Inteiro)
--Nome (Texto)
--Setor (Texto)
--Localização (Texto)
-
-
-
 -ID: 1 (Chave Primária, Inteiro), 
 Nome: "Tech Solutions" (Texto), 
 Setor: "Tecnologia" (Texto), 
